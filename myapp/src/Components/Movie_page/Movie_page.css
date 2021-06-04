@@ -1,0 +1,17 @@
+.div_movie{
+display:flex;
+flex-direction: column;
+width:70%;
+align-items: center;
+}
+
+.div_movie h1 {
+margin-bottom: 3%;
+}
+
+.div_movie span {
+text-align: justify;
+margin-left: 4%;
+margin-right: 4%;
+margin-bottom: 3%;
+}

@@ -1,0 +1,14 @@
+.div_liste{
+width: 80%;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+padding-left: 25px;
+}
+
+.link_style {
+text-decoration: none;
+color: black;
+border: solid 1px;
+display:flex;
+}

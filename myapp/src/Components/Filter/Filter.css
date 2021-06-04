@@ -1,0 +1,59 @@
+.div_header{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width:78%;
+margin-bottom: 3%;
+}
+
+.div_header button {
+border-radius: 5px;
+border:rgb(101, 105, 105) solid;
+}
+
+.div_header button:hover {
+background-color: rgb(112, 75, 75);
+}
+
+.div_header input {
+border-radius: 5px;
+border:rgb(101, 105, 105) solid;
+margin-right: 3%;
+}
+
+.div_filtre{
+height:30px;
+display: flex;
+width: 30%;
+width: 35%;
+}
+
+.elem_rating{
+display:flex;
+padding-top: 4px;
+}
+
+.elem_rating svg {
+width: 20px;
+}
+
+.elem_rating svg:hover{
+fill:red;
+cursor: pointer;
+}
+
+.color{
+fill:red;
+}
+
+.dialog_new{
+position:absolute;
+top: 7%;
+left: 55%;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+width:20%;
+height: 200px;
+border-radius: 15px;
+}
